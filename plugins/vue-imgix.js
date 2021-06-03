@@ -4,6 +4,7 @@ import VueImgix from 'vue-imgix';
 Vue.use(VueImgix, {
     domain: "images.microcms-assets.io",
     defaultIxParams: {
-        auto: 'format,compress'
+        auto: 'format,compress',
+        ch: 'width,dpr'
     },
 })
